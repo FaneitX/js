@@ -31,7 +31,7 @@ Przykładowy posiłek:
 ```
 
 ## Autorzy
-- [Twoje imię]
+- Mykyta_Nikulitsa
 
 ## Licencja
 MIT
