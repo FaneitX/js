@@ -1,0 +1,27 @@
+{
+    "week_number": 1,
+    "days": {
+        "Monday": {
+            "breakfast": {
+                "name": "Oatmeal",
+                "type": "breakfast",
+                "ingredients": ["oats", "milk", "berries"],
+                "prep_time": 10
+            },
+            "lunch": {
+                "name": "Salad",
+                "type": "lunch",
+                "ingredients": ["lettuce", "tomato", "cucumber"],
+                "prep_time": 15
+            }
+        },
+        "Tuesday": {
+            "breakfast": {
+                "name": "Yogurt",
+                "type": "breakfast",
+                "ingredients": ["yogurt", "granola"],
+                "prep_time": 5
+            }
+        }
+    }
+}

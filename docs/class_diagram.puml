@@ -1,0 +1,23 @@
+@startuml
+class Meal {
+  + name: str
+  + meal_type: str
+  + ingredients: list
+  + prep_time: int
+  + __init__(name: str, meal_type: str, ingredients: list, prep_time: int)
+  + to_dict(): dict
+  + from_dict(data: dict): Meal
+}
+
+class Plan {
+  + week_number: int
+  + days: dict
+  + __init__(week_number: int)
+  + add_meal(day: str, meal_type: str, meal: Meal)
+  + get_meals_by_type(meal_type: str): List[Meal]
+  + to_dict(): dict
+  + from_dict(data: dict): Plan
+}
+
+Meal "1" *-- "0..*" Plan : contains
+@enduml

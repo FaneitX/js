@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Oatmeal",
+        "type": "breakfast",
+        "ingredients": ["oats", "milk", "berries"],
+        "prep_time": 10
+    },
+    {
+        "name": "Salad",
+        "type": "lunch",
+        "ingredients": ["lettuce", "tomato", "cucumber"],
+        "prep_time": 15
+    },
+    {
+        "name": "Pasta",
+        "type": "dinner",
+        "ingredients": ["pasta", "sauce", "cheese"],
+        "prep_time": 20
+    }
+]
