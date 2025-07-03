@@ -33,5 +33,4 @@ Przykładowy posiłek:
 ## Autorzy
 - Mykyta_Nikulitsa
 
-## Licencja
-MIT
+
